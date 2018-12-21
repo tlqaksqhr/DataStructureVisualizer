@@ -26,6 +26,16 @@ class ForwardList{
 		node.next = this.head;
 		this.head = node;
 	}
+
+	front(){
+		return this.head.element;
+	}
+
+	pop_front(){
+		let element = this.head.element;
+		this.head = this.head.next;
+		return element;
+	}
 }
 
 
