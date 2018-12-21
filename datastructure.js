@@ -33,4 +33,8 @@ class Queue{
 	constructor(){
 		this.container = [];
 	}
+
+	size(){
+		return this.container.length;
+	}
 }
