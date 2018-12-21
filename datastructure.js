@@ -39,7 +39,7 @@ class Queue{
 	}
 
 	empty(){
-		if(this.container.length === 0)
+		if(this.container.length === 1)
 			return true;
 		else
 			return false;
