@@ -36,6 +36,18 @@ class ForwardList{
 		this.head = this.head.next;
 		return element;
 	}
+
+	insert_after(it,element) {
+
+	}
+
+	erase_after(it,element) {
+
+	}
+
+	remove(element) {
+
+	}
 }
 
 
