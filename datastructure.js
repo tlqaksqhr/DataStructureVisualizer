@@ -1,3 +1,26 @@
+class ForwardList{
+	constructor(){
+		this.node = {
+			'element' : null,
+			'next' : null
+		}
+		
+		this.tail = this.node;
+		this.head = this.node;
+	}
+
+	push_front(element){
+		let node = {
+			'element' : null, 
+			'next' : null
+		};
+		node.element = element;
+		node.next = this.head;
+		this.head = node;
+	}
+}
+
+
 class Stack{
 
 	constructor(){
