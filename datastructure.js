@@ -27,3 +27,10 @@ class Stack{
 			return false;
 	}
 }
+
+class Queue{
+
+	constructor(){
+		this.container = [];
+	}
+}
