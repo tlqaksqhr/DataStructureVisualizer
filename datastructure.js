@@ -37,4 +37,11 @@ class Queue{
 	size(){
 		return this.container.length;
 	}
+
+	empty(){
+		if(this.container.length === 0)
+			return true;
+		else
+			return false;
+	}
 }
