@@ -14,7 +14,6 @@ class ForwardList{
 			'next' : null
 		}
 		
-		this.tail = this.node;
 		this.head = this.node;
 	}
 
