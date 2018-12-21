@@ -2,7 +2,7 @@ function* ForwardListGenerator(forwardList) {
 	let start = forwardList.head;
 	let end = forwardList.tail;
     for (let it = start; it != end; it = it.next) {
-        yield it;
+        yield it.element;
     }
     return end;
 }
